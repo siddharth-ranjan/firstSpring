@@ -1,4 +1,4 @@
-package autowire;
+package autowireXML;
 
 public class zip {
     private int zip;
