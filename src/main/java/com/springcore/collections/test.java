@@ -18,5 +18,12 @@ public class test {
         System.out.println(emp1.getProps());
 
         System.out.println(emp1);
+
+        System.out.println(emp1.getName().getClass().getName());
+        System.out.println(emp1.getPhones().getClass().getName());
+        System.out.println(emp1.getAddresses().getClass().getName());
+        System.out.println(emp1.getCourses().getClass().getName());
+        System.out.println(emp1.getProps().getClass().getName());
+
     }
 }
