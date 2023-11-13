@@ -1,4 +1,4 @@
-package autowire;
+package autowireXML;
 
 public class address {
     private String street;

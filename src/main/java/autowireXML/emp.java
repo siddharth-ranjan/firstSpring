@@ -1,22 +1,22 @@
-package autowire;
+package autowireXML;
 
 public class emp {
     private address address;
     private zip zip;
 
-    public autowire.address getAddress() {
+    public autowireXML.address getAddress() {
         return address;
     }
 
-    public void setAddress(autowire.address address) {
+    public void setAddress(autowireXML.address address) {
         this.address = address;
     }
 
-    public autowire.zip getZip() {
+    public autowireXML.zip getZip() {
         return zip;
     }
 
-    public void setZip(autowire.zip zip) {
+    public void setZip(autowireXML.zip zip) {
         this.zip = zip;
     }
 

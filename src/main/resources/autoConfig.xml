@@ -12,11 +12,11 @@
     <!--    this is our beans-->
 
     <!--    first bean-->
-    <bean class="autowire.address" name="address" p:street="Kurmi Tola" p:city="Patna City"/>
-    <bean class="autowire.zip" name="z1" p:zip="800009"/>
+    <bean class="autowireXML.address" name="address" p:street="Kurmi Tola" p:city="Patna City"/>
+    <bean class="autowireXML.zip" name="z1" p:zip="800009"/>
 
-<!--    <bean class="autowire.emp" name="e1" autowire="byName"/> -->
-    <bean class="autowire.emp" name="e1" autowire="byType"/>
+<!--    <bean class="autowireXML.emp" name="e1" autowireXML="byName"/> -->
+    <bean class="autowireXML.emp" name="e1" autowire="byType"/>
 
 
 </beans>
