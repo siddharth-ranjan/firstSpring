@@ -3,14 +3,16 @@ package stereotype;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Component;
 
+import java.util.List;
+
 @Component("ob")
 public class Student {
 
     @Value("Siddharth Ranjan")
     private String name;
 
-    @Value("Patna")
-    private String city;
+    @Value("#{cities}")
+    private List<String> city;
 
     public String getName() {
         return name;
@@ -20,11 +22,11 @@ public class Student {
         this.name = name;
     }
 
-    public String getCity() {
+    public List<String> getCity() {
         return city;
     }
 
-    public void setCity(String city) {
+    public void setCity(List<String> city) {
         this.city = city;
     }
 
