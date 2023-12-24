@@ -12,7 +12,7 @@
 
     <!--    first bean-->
 
-    <bean class="org.example.Student" name="student1">
+    <bean class="entities.Student" name="student1">
         <property name="studentId">
             <value>23MCA1069</value>
 
@@ -29,7 +29,7 @@
 
     <!--    second bean-->
 
-    <bean class="org.example.Student" name="student2">
+    <bean class="entities.Student" name="student2">
         <property name="studentId" value="23MCA1097"/>
 
         <property name="studentName" value="Divy Parekh"/>
@@ -39,9 +39,9 @@
 
     <!--    third bean using p-->
 
-    <bean class="org.example.Student" name="student3" p:studentId="23MCA1054" p:studentName="Anshul Sharma" p:studentAddress="Jaipur"/>
+    <bean class="entities.Student" name="student3" p:studentId="23MCA1054" p:studentName="Anshul Sharma" p:studentAddress="Jaipur"/>
 
     <!--    fourth bean-->
 
-    <bean class="org.example.Student" name="student4" p:studentId="23MCA1104" p:studentName="Piyush Verma" p:studentAddress="Jamshedpur"/>
+    <bean class="entities.Student" name="student4" p:studentId="23MCA1104" p:studentName="Piyush Verma" p:studentAddress="Jamshedpur"/>
 </beans>
